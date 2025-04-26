@@ -1,4 +1,4 @@
-import { ITodo, TodoStatus } from "../../../entities/todo/model/types";
+import { ITodo, TodoStatus } from "../../../../entities/todo/model/types";
 
 interface IStatsProps {
   todos: ITodo[];

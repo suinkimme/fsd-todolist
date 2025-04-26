@@ -25,7 +25,12 @@ export const AddTodoForm = ({ onAddTodo }: IAddTodoFormProps) => {
           placeholder="Add new Task..."
           className="flex-1 px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
-        <button type="submit">Add</button>
+        <button
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors cursor-pointer"
+          type="submit"
+        >
+          Add
+        </button>
       </div>
     </form>
   );

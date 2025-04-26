@@ -1,5 +1,9 @@
-function App() {
-  return <h1>hello world!</h1>;
-}
+import { TodoPage } from "../pages/TodoPage/ui/TodoPage";
 
-export default App;
+export const App = () => {
+  return (
+    <div className="min-h-screen bg-gray-100 py-8">
+      <TodoPage />
+    </div>
+  );
+};

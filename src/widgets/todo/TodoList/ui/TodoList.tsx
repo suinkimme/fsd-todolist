@@ -1,6 +1,6 @@
-import { ITodo } from "../../../entities/todo/model/types";
-import { TodoItem } from "../../../features/todo/TodoItem/ui/TodoItem";
-import { Card } from "../../../shared/ui/card/Card";
+import { ITodo } from "../../../../entities/todo/model/types";
+import { TodoItem } from "../../../../features/todo/TodoItem/ui/TodoItem";
+import { Card } from "../../../../shared/ui/card/Card";
 
 interface ITodoListProps {
   todos: ITodo[];
